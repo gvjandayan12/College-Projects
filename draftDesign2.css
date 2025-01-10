@@ -1,0 +1,14 @@
+abody{
+    margin : 0;
+    background-color : #2EAF7D;
+}
+
+div.purchaseDivision{
+    background-color : #02353C;
+    height : 600px;
+    width : 800px;
+    position : absolute;
+    left : 100px;
+    top : 70px;
+    overflow-y : scroll;
+}

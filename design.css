@@ -1,0 +1,768 @@
+/*CSS FILE FOR HOME PAGE AND SHOP*/
+
+body{
+    background-color : #02353C;
+    margin : 0; 
+    overflow-x : hidden;
+}
+div.div1{
+    background-color : #449342;
+    position : fixed;
+    height : 120px;
+    width : 1520px; 
+    top : 0px;
+
+}
+button.home{
+    background-color : #449342;
+    color : black;
+    position : relative;
+    left : 500px;
+    height : 50px;
+    width : 150px;
+    border-radius : 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    border : none;
+    top : 40px;
+    cursor : pointer;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.home:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.9);
+}
+button.shop{
+    background-color : #449342;
+    color : black;
+    position : relative;
+    left : 600px;
+    top : 40px;
+    height : 50px;
+    width : 150px;
+    border-radius : 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    border : none;
+    bottom : 20px;
+    cursor : pointer;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.shop:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.9);
+}
+button.about{
+    background-color : #449342;
+    color : black;
+    position : absolute;
+    top : 40px;
+    left : 1000px;
+    height : 50px;
+    width : 150px;
+    border-radius : 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    border : none;
+    cursor : pointer;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.about:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.9);
+}
+h1.website_name{
+    position : absolute;
+    top :5px;
+    left : 50px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 50px;
+}
+div.div2{
+    background-color : #2EAF7D;
+    height : 609px;
+    width : 500px;
+    position : relative;
+    top : 101px;
+    left : 1030px;
+}
+button.shop1{
+    background-color : #449342;
+    color : black;
+    position : absolute;
+    top : 400px;
+    left : 190px;
+    height : 50px;
+    width : 150px;
+    border-radius : 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    border : none;
+    cursor : pointer;
+    border : solid white;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.shop1:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.5);
+}
+
+div.div3{
+    position : absolute;
+    top : 120px;
+}
+/*Air Force 1*/
+.nikeposter{
+    height : 605px;
+    width : 600px;
+    position : relative;
+    left : 200px;
+
+}
+button.arrowleft{
+    position : absolute;
+    bottom : 225px;
+    left :100px;
+    height : 80px;
+    width : 80px;
+    border-radius : 100px;
+    font-size : 45px;
+    cursor : pointer;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.arrowleft:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.5);
+}
+button.arrowright{
+    position : absolute;
+    bottom : 225px;
+    left : 820px;
+    height : 80px;
+    width : 80px;
+    border-radius : 100px;
+    font-size : 45px;
+    cursor : pointer;
+    transition : transform 0.7s ease, background-color 0.7s ease;
+}
+button.arrowright:hover{
+    background-color : #C1F6ED;
+    border-radius : 100px;
+    transform : scale(1.5);
+}
+
+h1.text{
+    position : absolute;
+    top : 300px;
+    left : 35px;
+    font-size : 30px;
+    color : #6d9d8c;
+}
+h3.text1{
+    position : absolute;
+    top : 350px;
+    left : 180px;
+    color : rgb(255, 255, 255);
+    
+}
+.background{
+    position : absolute;
+    left : 0px;
+    height : 608px;
+    width : 1030px;
+    filter : opacity(0.3);
+    
+}
+.nike2{
+    position : absolute;
+    height : 505px;
+    width : 480px;
+    left : 10px;
+    
+}
+.cart{
+    position : absolute;
+    height : 80px;
+    border-radius: 100px;
+    top : 20px;
+    left : 1200px;
+    cursor : pointer;
+    transition : transform 0.6s ease, background-color 0.6s ease;
+}
+.cart:hover{
+    transform : scale(1.5);
+}
+div.shoesDivision{
+    background-color : #017eb9;
+    height : 500px;
+    width : 450px;
+    position : absolute;
+    left : 20px;
+    top : 220px;
+    border-radius : 50px;
+}
+div.pantsDivision{
+    background-color : #017eb9;
+    height : 500px;
+    width : 450px;
+    position : absolute;
+    left : 525px;
+    top : 220px;
+    border-radius : 50px;
+}
+div.clotheDivision{
+    background-color : #017eb9;
+    height : 500px;
+    width : 450px;
+    position : absolute;
+    left : 1025px;
+    top : 220px;
+    border-radius : 50px;
+}
+h1.shoeTable{
+    position : absolute;
+    color : rgb(3, 239, 243);
+    top : -30px;    
+    left : 150px;
+    font-size : 50px;
+}
+h1.pantsTable{
+    position : absolute;
+    color : rgb(3, 239, 243);
+    top : -30px;    
+    left : 150px;
+    font-size : 50px;
+}
+h1.clotheTable{
+    position : absolute;
+    color : rgb(3, 239, 243);
+    top : -30px;    
+    left : 150px;
+    font-size : 50px;
+}
+button.proceed{
+    background-color : rgb(81, 244, 0);
+    position : absolute;
+    top : 400px;
+    left : 120px;
+    height : 50px;
+    width : 150px;
+    font-size : 20px;
+    border : solid white;
+    border-radius : 20px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+button.proceed:hover{
+    background-color : white;
+    transform : scale(1.5);
+}
+button.proceed1{
+    background-color : rgb(81, 244, 0);
+    position : absolute;
+    top : 400px;
+    left : 150px;
+    height : 50px;
+    width : 150px;
+    font-size : 20px;
+    border : solid white;
+    border-radius : 20px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+button.proceed1:hover{
+    background-color : white;
+    transform : scale(1.5);
+}
+button.proceed2{
+    background-color : rgb(81, 244, 0);
+    position : absolute;
+    top : 400px;
+    left : 180px;
+    height : 50px;
+    width : 150px;
+    font-size : 20px;
+    border : solid white;
+    border-radius : 20px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;   
+}
+button.proceed2:hover{
+    background-color : white;
+    transform : scale(1.5);
+}
+.BG{
+    position : absolute;
+    height : 609px;
+    width : 1536px;
+    top : 120px;
+}
+.casualSneakers{
+    position : absolute;
+    top : 80px;
+    left : 20px;
+    height : 300px;
+    width : 400px;
+    border-radius : 50px;
+    
+}
+#cargo{
+    position: absolute;
+    height : 300px;
+    width : 400px;
+    top : 80px;
+    left : 25px;
+    border-radius : 50px;
+    border : solid white;
+}
+.Rekive{
+    position : absolute;
+    height : 300px;
+    top : 80px;
+    left : 25px;
+    width : 400px;
+    border-radius : 50px;
+    border : solid white;
+}
+.user{
+    position : absolute;
+    height : 80px;
+    left : 1330px;
+    top : 20px;
+    border-radius : 50px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+.user:hover{
+    transform : scale(1.5);
+}
+div.div4{
+    background-color : white;
+    position : absolute;
+    height :400px;
+    width : 500px;
+    top : 150px;
+    left : 30px;
+}
+.nikeposter1{
+    height : 400px;
+    width : 500px;
+}
+h1.NikeAllWhite{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 280px;
+    top : 10px;
+    font-size : 40px;
+    font-family :Arial, Helvetica, sans-serif
+}
+h1.NikeAllWhitePrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    font-family : Arial, Helvetica, sans-serif;
+    top : 100px;
+}
+h3.NikeAllWhiteDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif
+
+}
+div.div5{
+    background-color : #00181c;
+    position : absolute;
+    height : 500px;
+    width : 970px;
+    top : 150px;
+    left : 550px;
+}
+button.AddToCart{
+    background-color : #02353C;
+    position : absolute;
+    top : 340px;
+    left : 300px;
+    height : 60px;
+    width : 200px;
+    font-size : 25px;
+    cursor : pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button.AddToCart:hover{
+    background-color : #ccf400;
+    transform : scale(1.1);
+}
+.quantity{
+    position : absolute;
+    font-size : 25px;
+    height : 50px;
+    width : 80px;
+    top : 350px;
+    left : 125px;   
+}
+button.shoeleftArrow{
+    position : relative;
+    top : 200px;
+    left : -80px;
+    height : 50px;
+    width : 50px;
+    border-radius : 100px;
+    font-size : 25px;
+    cursor : pointer;
+}
+button.shoerightArrow{
+    position : relative;
+    top : 200px;
+    right : 570px;
+    height : 50px;
+    width : 50px;
+    border-radius : 100px;
+    font-size : 25px;
+    cursor : pointer;
+}
+div.div6{
+    background-color : white;
+    height : 400px;
+    width : 500px;
+    position : absolute;
+    top : 800px;
+    left : 20px;
+}
+img.nikeposter2{
+    height : 400px;
+    width : 500px;
+}
+div.div7{
+    background-color : #00181c;
+    height : 500px;
+    width : 970px;
+    height : 500px;
+    position : absolute;
+    top : 800px;
+    left : 550px;
+}
+h1.NikeGreen{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+}
+h1.NikeGreenPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+}
+h1.NikeGreenDescription{
+    color : #3FD0C9;
+    left : 50px;
+    position : absolute;
+    top : 170px;
+}
+button.AddToCart1{
+    background-color : #02353C;
+    position : absolute;
+    top : 420px;
+    left : 300px;
+    height : 60px;
+    width : 200px;
+    font-size : 25px;
+    cursor : pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button.AddToCart1:hover{
+    background-color : #ccf400;
+    transform : scale(1.1);
+}
+input.quantity1{
+    position : absolute;
+    font-size : 25px;
+    height : 50px;
+    width : 80px;
+    top : 420px;
+    left : 125px;  
+}
+div.div8{
+    background-color : #00181c;
+    position : absolute;
+    top : 1500px;   
+    height : 400px;
+    width : 500px;
+    left : 20px;
+}
+img.nikeposter3{
+    height : 400px;
+    width : 500px;
+}
+div.div9{
+    background-color : #00181c;
+    height : 500px;
+    width : 970px;
+    height : 500px;
+    position : absolute;
+    top : 1500px;
+    left : 550px;
+}
+h1.CasualSneakers{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    
+}
+h1.CasualSneakersPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+}
+
+h1.CasualSneakersDescription{
+    color : #3FD0C9;
+    left : 50px;
+    position : absolute;
+    top : 170px;
+}
+img.Cargo{
+    position : absolute;
+    height : 400px;
+    width : 500px;
+}
+img.CargoBrown{
+    height : 400px;
+    width : 500px;
+}
+h1.CargoBrownName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.CargoBrownPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3.CargoBrownDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif
+    
+}
+img.jeans{
+    height : 400px;
+    width : 500px;
+}
+h1.JeansName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.JeansPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.JeansDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif
+}
+img.joggingpants{
+    height : 400px;
+    width : 500px;
+}
+h1.JoggingPantsName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.JoggingPantsPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.JoggingPantsDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif
+}
+img.AddidasRekive{
+    height : 400px;
+    width : 500px;
+}
+h1.AddidasName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.AddidasPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3.AddidasDescription{  
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif
+}
+img.Strikot{
+    height : 400px;
+    width : 500px;
+
+}
+h1.StrikotName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.StrikotPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.StrikotDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 170px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+img.Alabama{
+    height : 400px;
+    width : 500px;
+
+}
+h1.AlabamaName{
+    position : absolute;
+    color : #3FD0C9;
+    left : 50px;
+    width : 280px;
+    top : 20px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.AlabamaPrice{
+    color : #ccf400;
+    position : absolute;
+    left : 50px;
+    top : 100px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+h1.AlabamaDescription{
+    color : #3FD0C9;
+    position : absolute;
+    left : 50px;
+    width : 800px;
+    font-size : 20px;
+    bottom : 120px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+div.forAddress{
+    height : 150px;
+    width : 400px;
+    background-color : #449342;
+    position : absolute;
+    top : 170px;
+    border-radius : 10px;
+    display : none;
+}
+p.addresslocation{
+    height : 100px;
+    width : 200px;
+    font-size : 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position : absolute;
+    left : 45px;
+    bottom : 10px;
+}
+input.InputAddress{
+    height : 40px;
+    border-radius : 10px;
+    width : 325px;
+    position : absolute;
+    top : 50px;
+    left : 40px;
+    font-size : 20px;
+}
+input.enterAddress{
+    height : 40px;
+    width : 90px;
+    font-size : 20px;
+    position : absolute;
+    left : 150px;
+    top : 100px;
+    border-radius : 20px;
+    cursor : pointer;
+}
+input.enterAddress:hover{
+    background-color : yellow;
+    transform : scale(1.2);
+}
