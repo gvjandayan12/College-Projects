@@ -1,0 +1,635 @@
+div.div{
+    background-color : black;
+    position : fixed;
+    height : 100px;
+    width : 1527px;
+    margin : 0px;
+    left : -8px;
+    top : -8px;
+    
+}
+h1.biringanUniversity{
+    position : absolute;
+    color : red;
+    font-family : Arial;
+    left : 50px;
+    top : 10px;
+}
+button.programs{
+    background-color : #1A95EE;
+    position : absolute;
+    color : white;
+    left : 960px;
+    top : 25px;
+    height : 50px;
+    width : 120px;
+    border-radius : 10px;
+    font-size : 18px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+button.programs:hover{
+    transform : scale(1.07);
+}
+button.programs:active{
+    background-color : #0d456d;
+}
+button.teachersPortal{
+    background-color : #1A95EE;
+    position : absolute;
+    color : white;
+    left : 1150px;
+    top : 25px;
+    height : 50px;
+    width : 170px;
+    border-radius : 10px;
+    font-size : 18px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+button.teachersPortal:hover{
+    transform : scale(1.07);
+}
+button.teachersPortal:active{
+    background-color : #0d456d;
+}
+button.about{
+    background-color : #1A95EE;
+    position : absolute;
+    color : white;
+    left : 1380px;
+    top : 25px;
+    height : 50px;
+    width : 120px;
+    border-radius : 10px;
+    font-size : 18px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+button.about:hover{
+    transform : scale(1.07)
+}
+button.about:active{
+    background-color : #0d456d;
+}
+div.div1{
+    background-color : black;
+    position : absolute;
+    width : 1525px;
+    height : 940px;
+    top : 92px;
+    left : -7px;
+}
+img.biringan{
+    position : absolute;
+    left : 0px;
+    width : 1525px;
+    height : 940px;
+
+}
+p.description{
+    position : absolute;
+    height : 400px;
+    width : 1400px;
+    left : 50px;
+    font-family : Arial;
+    font-size : 30px;
+    color : white;
+    display : none;
+
+}
+#login{
+    background-color : black;
+    position : absolute;
+    color : red;
+    height : 40px;
+    width : 100px;
+    font-size : 15px;
+    left : 100px;
+    border-radius : 10px;
+    top : 20px;
+    cursor : pointer;
+    border : none;
+    display : none;
+    transition : transform 0.3s ease, backkground-color 0.3s ease;
+}
+#login:hover{
+    transform : scale(1.07);
+    
+}
+#login:active{
+    background-color : grey;
+}
+#register{
+    background-color : black;
+    position : absolute;
+    color : red;
+    height : 40px;
+    width : 100px;
+    font-size : 15px;
+    left : 300px;
+    border-radius : 10px;
+    top : 20px;
+    cursor : pointer;
+    border : none;
+    display : none;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+#register:hover{
+    transform : scale(1.07);
+    
+}
+#register:active{
+    background-color : grey;
+}
+#divProgram{
+    position : absolute;
+    background-color : #1A95EE;
+    height : 752px;
+    width : 1320px;
+    left : 110px;
+    top : 150px;
+    border-radius : 10px;
+    display : none;
+}
+#bsemc{
+    position : absolute;
+    background-color : black;
+    color : red;
+    padding : 10px;
+    left : 25px;
+    top : 10px;
+    border-radius : 10px;    
+    font-family : Arial;
+}
+#panel{
+    background-color : black;
+    color : red;
+    top : 150px;
+    border-radius : 10px;
+    width : 1200px;
+    padding : 20px;
+    left : 40px;
+    position : absolute;
+    font-family : Arial;
+    font-size : 12px;
+    
+}
+
+#enroll{
+    position : absolute;
+    height : 40px;
+    width : 110px;
+    background-color : black;
+    color : red;
+    left : 800px;
+    top : 480px;
+    border-radius : 10px;   
+    cursor : pointer; 
+    transition : transform 0.3s ease, background-color 0.1s ease;
+}
+#enroll:hover{
+    transform : scale(1.07);    
+}
+#enroll:active{
+    background-color : grey;
+}
+#proceed{
+    position : absolute;
+    height : 40px;
+    width : 110px;
+    background-color : black;
+    color : red;
+    left : 1000px;
+    top : 480px;
+    border-radius : 10px;    
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.1s ease;
+}
+#proceed:hover{
+    transform : scale(1.07);    
+}
+#proceed:active{
+    background-color : grey;
+}
+
+#first{
+    position : absolute;
+    background-color : black;
+    color : red;
+    left : 850px;
+    top : 50px;
+    border-radius : 10px;
+    height : 40px;
+    width : 120px;
+    font-size : 15px;
+    display : none;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.1s ease;
+
+}
+#first:hover{
+    transform : scale(1.07);    
+}
+#first:active{
+    background-color : grey;
+}
+#second{
+       position : absolute;
+    background-color : black;
+    color : red;
+    left : 1000px;
+    top : 50px;
+    border-radius : 10px;
+    height : 40px;
+    width : 120px;
+    font-size : 15px;
+    cursor : pointer;
+    display : none;
+    transition : transform 0.3s ease, background-color 0.1s ease;
+}
+#second:hover{
+    transform : scale(1.07);    
+}
+#second:active{
+    background-color : grey;
+}
+#third{
+    position : absolute;
+    background-color : black;
+    color : red;
+    left : 1150px;
+    top : 50px;
+    border-radius : 10px;
+    height : 40px;
+    width : 120px;
+    font-size : 15px;
+    display : none;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.1s ease;
+}
+#third:hover{
+    transform : scale(1.07);    
+}
+#third:active{
+    background-color : grey;
+}
+#fourth{
+    position : absolute;
+    background-color : black;
+    color : red;
+    left : 1300px;
+    top : 50px;
+    border-radius : 10px;
+    height : 40px;
+    width : 120px;
+    font-size : 15px;
+    cursor : pointer;
+    display : none;
+    transition : transform 0.3s ease, background-color 0.1s ease;    
+}
+#fourth:hover{
+    transform : scale(1.07);    
+}
+#fourth:active{
+    background-color : grey;
+}
+
+#jobOp{
+    position : absolute;
+    background-color : black;
+    border-radius : 5px;
+    color : red;    
+    height : 20px;
+    padding : 10px;
+    width : 190px;
+    left : 80px;
+    top : 100px;
+    font-family : Arial;
+    font-size : 20px;
+    display : none;
+}
+#panel1 {
+    position: absolute;
+    background-color: black;
+    color: red;
+    height: 420px;
+    width: 300px;
+    left: 80px;
+    top: 200px;
+    display: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    display : none;
+}
+#par{
+    color : red;
+    position : absolute;
+    height : 100px;
+    font-size : 20px;
+}
+#par1{
+    color : red;
+    position : absolute;
+    height : 100px;
+    font-size : 19px;
+}
+#par2{
+    color : red;
+    position : absolute;
+    height : 100px;
+    font-size : 19px;
+}
+#panel2{
+    position: absolute;
+    background-color: black;
+    color: red;
+    height: 420px;
+    width: 300px;
+    left: 490px;
+    top: 200px;
+    display: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    display : none;
+}
+#panel3{
+    position: absolute;
+    background-color: black;
+    color: red;
+    height: 420px;
+    width: 300px;
+    left: 900px;
+    top: 200px;
+    display: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    display : none;
+}
+#back{
+    position : absolute;
+    background-color : #1A95EE;
+    color : white;
+    height : 30px;
+    width : 80px;
+    left : 110px;
+    font-size : 15px;
+    border-radius : 10px;
+    top : 50px;
+    cursor : pointer;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+    display : none;
+}
+#back:hover{
+    transform : scale(1.07);
+}
+#back:active{
+    background-color : white;
+}
+#usernameLabel{
+    position : absolute;
+    top : 130px;
+    left : 70px;
+    color : red;
+    font-size : 20px;
+    font-family : Arial;
+    display : none;
+}
+#enterUsername{
+    position : absolute;
+    top : 170px;
+    height : 30px;
+    left : 70px;
+    width : 300px;
+    font-size : 20px;
+    background-color : black;
+    color : red;
+    display : none;
+}
+#passwordLabel{
+    position : absolute;
+    color : red;
+    top : 240px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterPassword{
+    position : absolute;
+    top : 280px;
+    left : 70px;
+    width : 300px;
+    height : 30px;
+    background-color : black;
+    color : red;
+    font-size : 20px;
+    display : none;
+}   
+#enter{
+    position : absolute;
+    top : 350px;
+    left : 70px;
+    height : 30px;
+    width : 100px;
+    background-color : black;
+    color : red;
+    font-size : 17px;
+    border-radius : 10px;
+    cursor : pointer;
+    display : none;
+    transition : transform 0.3s ease, background-color 0.3s ease;
+}
+#enter:hover{
+    transform : scale(1.1);
+}
+#enter:active{
+    background-color : white;
+    color : black;
+}
+#enterNameLabel{
+    position : absolute;
+    color : red;
+    top : 100px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterName{
+    position : absolute;
+    color : red;
+    background-color : black;
+    top : 140px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterMiddleNameLabel{
+    position : absolute;
+    color : red;
+    top : 185px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterMiddleName{
+    position : absolute;
+    color : red;
+    top : 225px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    background-color : black;
+    display : none;
+}
+#enterLastNameLabel{
+    position : absolute;
+    color : red;
+    top : 270px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterLastName{
+    position : absolute;
+    color : red;
+    top : 310px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    background-color : black;
+    color : red;
+    display : none;
+}
+#enterUserIDLabel{
+    position : absolute;
+    color : red;
+    top : 355px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#enterUserID{
+    position : absolute;
+    color : red;
+    top : 395px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    background-color : black;
+    color : red;
+    display : none;
+}
+#createUsernameLabel{
+    position : absolute;
+    color : red;
+    top : 440px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#createUsername{
+    position : absolute;
+    color : red;
+    top : 480px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    background-color : black;
+    display : none;
+}
+#createPasswordLabel{
+    position : absolute;
+    color : red;
+    top : 525px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    display : none;
+}
+#createPassword{
+    position : absolute;
+    color : red;
+    top : 565px;
+    font-family : Arial;
+    font-size : 20px;
+    left : 70px;
+    background-color : black;
+    display : none;
+}
+#create{
+    position : absolute;
+    background-color : black;
+    color : red;
+    height : 40px;
+    width : 100px;
+    top : 540px;
+    left : 70px;
+    font-size : 16px;
+    border-radius : 10px;
+    cursor : pointer;
+    font-family : 'Arial';
+    display : none;
+    transition : transform 0.3s ease, background-color 0.1s ease;
+}
+#create:hover{
+    transform : scale(1.07);
+}
+#create:active{
+    background-color : white;
+}
+#footer{
+    position : absolute;
+    height : 250px;
+    width : 1526px;
+    background-color : black;
+    left : -8px;
+    top : 1032px;
+}
+#right{
+    position : absolute;
+    color : white;
+    left : 670px;
+    top : 180px;
+}
+#right1{
+    position : absolute;
+    color : white;
+    left : 550px;
+    top : 200px;
+}
+#contact{
+    position : absolute;
+    color : white;
+    left : 550px;
+    top : 130px;
+    font-size : 20px;
+}
+#ig{
+    position : absolute;
+    height : 50px;
+    border-radius : 10px;
+    left : 700px;
+    top : 60px;
+    cursor : pointer;
+}
+#fb{
+    position : absolute;
+    height : 50px;
+    border-radius : 10px;
+    left : 800px;
+    top : 60px;
+    cursor : pointer;
+}
